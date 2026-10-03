@@ -1,0 +1,22 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Threebit.OutaStory
+PackageVersion: 1.9.38.244
+Platform:
+- Windows.Universal
+- Windows.Desktop
+MinimumOSVersion: 10.0.17763.0
+InstallerType: msix
+PackageFamilyName: io.threebit.outastory_x1n4bg2pjdgww
+Installers:
+- Architecture: x64
+  InstallerUrl: https://download.outastory.com/windows/1.9.38/OutaStory-1.9.38.msixbundle
+  InstallerSha256: C6A563B08641A323CCE7F7F36EE2AB4E7B374B86EAE35EDB3CBBD6FD88AAA585
+  SignatureSha256: 903B67BA5C39755B975C6185618467CD87B438C3895EDA9B5B34B498D0613CA7
+- Architecture: arm64
+  InstallerUrl: https://download.outastory.com/windows/1.9.38/OutaStory-1.9.38.msixbundle
+  InstallerSha256: C6A563B08641A323CCE7F7F36EE2AB4E7B374B86EAE35EDB3CBBD6FD88AAA585
+  SignatureSha256: 903B67BA5C39755B975C6185618467CD87B438C3895EDA9B5B34B498D0613CA7
+ManifestType: installer
+ManifestVersion: 1.12.0
